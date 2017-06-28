@@ -1,0 +1,10 @@
+com\wish\action\dao\BaseMapper.class
+com\wish\action\service\SysUserService.class
+com\wish\action\properties\FastdfsInfo.class
+com\wish\action\service\impl\SysUserServiceImpl.class
+com\wish\action\Application.class
+com\wish\action\controller\sys\UserController.class
+com\wish\action\controller\HelloWorldController.class
+com\wish\action\dao\sys\entity\User.class
+com\wish\action\controller\sys\SysUserController.class
+com\wish\action\dao\sys\mapper\UserMapper.class
