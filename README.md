@@ -1,4 +1,4 @@
-#action
+# action
 ## 简介
 action 是一个基于Spring Boot & MyBatis的项目，用于快速构建中小型API、RESTful API项目，该项目稳定、简单、快速，使我们摆脱那些重复劳动，专注于业务代码的编写，减少加班。
 
