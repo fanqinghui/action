@@ -1,0 +1,22 @@
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
+    useColumnLabel: true
+  mapper-locations: classpath:mapper/*.xml
+server:
+  port: 80
+spring:
+  freemarker:
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    suffix: .ftl
+    template-loader-path: classpath:/views/
+  main:
+    banner-mode: 'off'
+  profiles:
+    active: dev

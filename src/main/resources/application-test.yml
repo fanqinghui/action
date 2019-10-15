@@ -1,0 +1,14 @@
+debug: false
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      connection-timeout: 30000
+      maximum-pool-size: 10
+    min-evictable-idle-time-millis: 1800000
+    num-tests-per-eviction-run: 3
+    password: root
+    time-between-eviction-runs-millis: 1800000
+    url: jdbc:mysql://localhost:3306/action?useUnicode=true&characterEncoding=utf-8
+    username: root
+    validation-query: SELECT 1
