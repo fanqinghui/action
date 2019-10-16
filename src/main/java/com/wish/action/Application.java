@@ -4,19 +4,14 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.support.SpringBootServletInitializer;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /**
  * Spring Boot应用启动类
  *
  * Created by fqh on 17/6/24.
  */
-//扫描xxx包下的注解
-@ComponentScan("com.wish.action")
-//扫描xxx包下的mapper接口类
 @MapperScan(basePackages = "com.wish.action.dao")
-//springboot启动标识
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
 
