@@ -28,4 +28,9 @@ public class SysUserServiceImpl implements SysUserService{
 
         return user;
     }
+
+    @Override
+    public User getUserByUsername(String username) {
+        return new User(1L,"fqh","123456","test");
+    }
 }

@@ -9,5 +9,7 @@ import com.wish.action.dao.sys.entity.User;
  */
 public interface SysUserService {
 
-    public User getUserById(Long id);
+  public User getUserById(Long id);
+
+  User getUserByUsername(String username);
 }
